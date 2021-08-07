@@ -1,5 +1,5 @@
-body{
-    
+body
+{
     height: 100%;
     margin: 0;
     padding: 0;
@@ -7,13 +7,9 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.5em;
-   
-
 }
-
-#navbar{
-
-    
+#navbar
+{
     background: linear-gradient(to bottom, rgb(6, 43, 252) 60%, rgb(26, 236, 243));
     opacity: 50%;
     text-align: center;
@@ -22,96 +18,69 @@ body{
     width: 100%;
     position: fixed;
     z-index: 1000;
-   
 }
-
-#navbar a{
-
+#navbar a
+{
     padding: 0px 20px;
     color: white;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    
 }
- 
-
-.img1, .img2, .img3, .img4{
-    
+.img1, .img2, .img3, .img4
+{
     position:relative;
     opacity: 90%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
-
-.img1{
-
-    background-image: url("/assets/img/img1.jpg");
-    min-height: 100vh;
-
-}
-
-
-.img2{
-
-    background-image: url("/assets/img/img2.jpg");
-    min-height: 600px;
-
-}
-
-
-.img3{
-
-    background-image: url("/assets/img/img3.jpg");
-    min-height: 600px;
-
-}
-
-
-.img4{
-
-    background-image: url("/assets/img/img4.jpg");
+.img1
+{
+    background-image: url("../assets/img/img1.jpg");
     min-height: 100vh;
 }
-
-.section{
-    
+.img2
+{
+    background-image: url("../assets/img/img2.jpg");
+    min-height: 600px;
+}
+.img3
+{
+    background-image: url("../assets/img/img3.jpg");
+    min-height: 600px;
+}
+.img4
+{
+    background-image: url("../assets/img/img4.jpg");
+    min-height: 100vh;
+}
+.section
+{
     text-align: center;
     padding: 50px 80px;
-   
 }
-
-.section-light{
-
+.section-light
+{
     background-color: white;
     color: #666;
 }
-
-
-.section-dark{
-
+.section-dark
+{
     background-color: rgba(20, 40, 51, 0.665);
     color: #ddd;
 }
-
-.ptext{
-
+.ptext
+{
     position: absolute;
     top: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
-   
-    
-
 }
-
-
-
-.ptext .border{
+.ptext .border
+{
     background-color: #111;
     color: rgb(254, 255, 254);
     padding: 2%;
@@ -120,31 +89,24 @@ body{
     text-transform: uppercase;
     background-color: rgba(2, 29, 22, 0.734);
     font-weight: bold;
-   
-    
 }
-
-.ptext .border .trans{
-
+.ptext .border .trans
+{
     background-color: transparent;
 }
-
-@media screen and (max-width: 568px){
-
-    .img1, .img2, .img3, .img4{
-
+@media screen and (max-width: 568px)
+{
+    .img1, .img2, .img3, .img4
+    {
         background-attachment: scroll;
     }
-    
 }
-
-.footer{
-
+.footer
+{
     text-align: center;
-
 }
-.footer .icons{
-
+.footer .icons
+{
     font-size: 2rem;
     padding: 35px  0;
 }
